@@ -1,14 +1,14 @@
 //
-//  TJBFullScreenTransitionTests.m
-//  TJBFullScreenTransitionTests
+//  TJBFullScreenTransitionExampleTests.m
+//  TJBFullScreenTransitionExampleTests
 //
 //  Created by Tyler Barth on 2013-05-31.
 //  Copyright (c) 2013年 divergio. All rights reserved.
 //
 
-#import "TJBFullScreenTransitionTests.h"
+#import "TJBFullScreenTransitionExampleTests.h"
 
-@implementation TJBFullScreenTransitionTests
+@implementation TJBFullScreenTransitionExampleTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in TJBFullScreenTransitionTests");
+    STFail(@"Unit tests are not implemented yet in TJBFullScreenTransitionExampleTests");
 }
 
 @end

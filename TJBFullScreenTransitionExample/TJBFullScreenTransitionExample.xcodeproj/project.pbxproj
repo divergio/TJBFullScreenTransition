@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A88F2D17587153003906F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F2C17587153003906F9 /* UIKit.framework */; };
+		56A88F2F17587153003906F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F2E17587153003906F9 /* Foundation.framework */; };
+		56A88F3117587153003906F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F3017587153003906F9 /* CoreGraphics.framework */; };
+		56A88F3717587153003906F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F3517587153003906F9 /* InfoPlist.strings */; };
+		56A88F3917587153003906F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F3817587153003906F9 /* main.m */; };
+		56A88F3D17587153003906F9 /* TJBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F3C17587153003906F9 /* TJBAppDelegate.m */; };
+		56A88F3F17587153003906F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F3E17587153003906F9 /* Default.png */; };
+		56A88F4117587153003906F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F4017587153003906F9 /* Default@2x.png */; };
+		56A88F4317587153003906F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F4217587153003906F9 /* Default-568h@2x.png */; };
+		56A88F4B17587154003906F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F4A17587154003906F9 /* SenTestingKit.framework */; };
+		56A88F4C17587154003906F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F2C17587153003906F9 /* UIKit.framework */; };
+		56A88F4D17587154003906F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A88F2E17587153003906F9 /* Foundation.framework */; };
+		56A88F5517587154003906F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F5317587154003906F9 /* InfoPlist.strings */; };
+		56A88F5817587154003906F9 /* TJBFullScreenTransitionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F5717587154003906F9 /* TJBFullScreenTransitionExampleTests.m */; };
+		56A88F6517588940003906F9 /* amateur_chat_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F6317588940003906F9 /* amateur_chat_bubble.png */; };
+		56A88F6617588940003906F9 /* amateur_chat_bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F6417588940003906F9 /* amateur_chat_bubble@2x.png */; };
+		56A88F69175889E6003906F9 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F68175889E6003906F9 /* PresentedViewController.m */; };
+		56A88F7117588C06003906F9 /* UIViewController+TJBFullScreenTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F6B17588C06003906F9 /* UIViewController+TJBFullScreenTransition.m */; };
+		56A88F7217588C06003906F9 /* UIViewController+FillViewWithChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F6D17588C06003906F9 /* UIViewController+FillViewWithChildVC.m */; };
+		56A88F7317588C06003906F9 /* UIView+TJBExpandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F6F17588C06003906F9 /* UIView+TJBExpandingView.m */; };
+		56A88F7B17588CC6003906F9 /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F7417588CC6003906F9 /* TimelineCell.xib */; };
+		56A88F7C17588CC6003906F9 /* TimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F7617588CC6003906F9 /* TimelineCell.m */; };
+		56A88F7D17588CC6003906F9 /* RandomChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F7817588CC6003906F9 /* RandomChinese.m */; };
+		56A88F7E17588CC6003906F9 /* RandomCellSizeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F7A17588CC6003906F9 /* RandomCellSizeTableVC.m */; };
+		56A88F8317588CD5003906F9 /* TempStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A88F8117588CD5003906F9 /* TempStoryboard.storyboard */; };
+		56A88F8417588F34003906F9 /* TempStoryboard.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 56A88F8117588CD5003906F9 /* TempStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56A88F4E17587154003906F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56A88F2117587153003906F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56A88F2817587153003906F9;
+			remoteInfo = TJBFullScreenTransitionExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56A88F2917587153003906F9 /* TJBFullScreenTransitionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJBFullScreenTransitionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A88F2C17587153003906F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56A88F2E17587153003906F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56A88F3017587153003906F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56A88F3417587153003906F9 /* TJBFullScreenTransitionExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJBFullScreenTransitionExample-Info.plist"; sourceTree = "<group>"; };
+		56A88F3617587153003906F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56A88F3817587153003906F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56A88F3A17587153003906F9 /* TJBFullScreenTransitionExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TJBFullScreenTransitionExample-Prefix.pch"; sourceTree = "<group>"; };
+		56A88F3B17587153003906F9 /* TJBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBAppDelegate.h; sourceTree = "<group>"; };
+		56A88F3C17587153003906F9 /* TJBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBAppDelegate.m; sourceTree = "<group>"; };
+		56A88F3E17587153003906F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		56A88F4017587153003906F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		56A88F4217587153003906F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56A88F4917587154003906F9 /* TJBFullScreenTransitionExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJBFullScreenTransitionExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A88F4A17587154003906F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		56A88F5217587154003906F9 /* TJBFullScreenTransitionExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TJBFullScreenTransitionExampleTests-Info.plist"; sourceTree = "<group>"; };
+		56A88F5417587154003906F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56A88F5617587154003906F9 /* TJBFullScreenTransitionExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJBFullScreenTransitionExampleTests.h; sourceTree = "<group>"; };
+		56A88F5717587154003906F9 /* TJBFullScreenTransitionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJBFullScreenTransitionExampleTests.m; sourceTree = "<group>"; };
+		56A88F6317588940003906F9 /* amateur_chat_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amateur_chat_bubble.png; sourceTree = "<group>"; };
+		56A88F6417588940003906F9 /* amateur_chat_bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amateur_chat_bubble@2x.png"; sourceTree = "<group>"; };
+		56A88F67175889E6003906F9 /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
+		56A88F68175889E6003906F9 /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		56A88F6B17588C06003906F9 /* UIViewController+TJBFullScreenTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TJBFullScreenTransition.m"; sourceTree = "<group>"; };
+		56A88F6C17588C06003906F9 /* UIViewController+TJBFullScreenTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TJBFullScreenTransition.h"; sourceTree = "<group>"; };
+		56A88F6D17588C06003906F9 /* UIViewController+FillViewWithChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FillViewWithChildVC.m"; sourceTree = "<group>"; };
+		56A88F6E17588C06003906F9 /* UIViewController+FillViewWithChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FillViewWithChildVC.h"; sourceTree = "<group>"; };
+		56A88F6F17588C06003906F9 /* UIView+TJBExpandingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TJBExpandingView.m"; sourceTree = "<group>"; };
+		56A88F7017588C06003906F9 /* UIView+TJBExpandingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TJBExpandingView.h"; sourceTree = "<group>"; };
+		56A88F7417588CC6003906F9 /* TimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
+		56A88F7517588CC6003906F9 /* TimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCell.h; sourceTree = "<group>"; };
+		56A88F7617588CC6003906F9 /* TimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCell.m; sourceTree = "<group>"; };
+		56A88F7717588CC6003906F9 /* RandomChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomChinese.h; sourceTree = "<group>"; };
+		56A88F7817588CC6003906F9 /* RandomChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomChinese.m; sourceTree = "<group>"; };
+		56A88F7917588CC6003906F9 /* RandomCellSizeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomCellSizeTableVC.h; sourceTree = "<group>"; };
+		56A88F7A17588CC6003906F9 /* RandomCellSizeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomCellSizeTableVC.m; sourceTree = "<group>"; };
+		56A88F8117588CD5003906F9 /* TempStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TempStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56A88F2617587153003906F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F2D17587153003906F9 /* UIKit.framework in Frameworks */,
+				56A88F2F17587153003906F9 /* Foundation.framework in Frameworks */,
+				56A88F3117587153003906F9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A88F4517587154003906F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F4B17587154003906F9 /* SenTestingKit.framework in Frameworks */,
+				56A88F4C17587154003906F9 /* UIKit.framework in Frameworks */,
+				56A88F4D17587154003906F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56A88F2017587153003906F9 = {
+			isa = PBXGroup;
+			children = (
+				56A88F6A17588BEE003906F9 /* TJBFullScreenTransition */,
+				56A88F3217587153003906F9 /* TJBFullScreenTransitionExample */,
+				56A88F5017587154003906F9 /* TJBFullScreenTransitionExampleTests */,
+				56A88F2B17587153003906F9 /* Frameworks */,
+				56A88F2A17587153003906F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56A88F2A17587153003906F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F2917587153003906F9 /* TJBFullScreenTransitionExample.app */,
+				56A88F4917587154003906F9 /* TJBFullScreenTransitionExampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56A88F2B17587153003906F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F2C17587153003906F9 /* UIKit.framework */,
+				56A88F2E17587153003906F9 /* Foundation.framework */,
+				56A88F3017587153003906F9 /* CoreGraphics.framework */,
+				56A88F4A17587154003906F9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56A88F3217587153003906F9 /* TJBFullScreenTransitionExample */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F3B17587153003906F9 /* TJBAppDelegate.h */,
+				56A88F3C17587153003906F9 /* TJBAppDelegate.m */,
+				56A88F7917588CC6003906F9 /* RandomCellSizeTableVC.h */,
+				56A88F7A17588CC6003906F9 /* RandomCellSizeTableVC.m */,
+				56A88F7517588CC6003906F9 /* TimelineCell.h */,
+				56A88F7617588CC6003906F9 /* TimelineCell.m */,
+				56A88F7417588CC6003906F9 /* TimelineCell.xib */,
+				56A88F67175889E6003906F9 /* PresentedViewController.h */,
+				56A88F68175889E6003906F9 /* PresentedViewController.m */,
+				56A88F8117588CD5003906F9 /* TempStoryboard.storyboard */,
+				56A88F7717588CC6003906F9 /* RandomChinese.h */,
+				56A88F7817588CC6003906F9 /* RandomChinese.m */,
+				56A88F6317588940003906F9 /* amateur_chat_bubble.png */,
+				56A88F6417588940003906F9 /* amateur_chat_bubble@2x.png */,
+				56A88F3317587153003906F9 /* Supporting Files */,
+			);
+			path = TJBFullScreenTransitionExample;
+			sourceTree = "<group>";
+		};
+		56A88F3317587153003906F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F3417587153003906F9 /* TJBFullScreenTransitionExample-Info.plist */,
+				56A88F3517587153003906F9 /* InfoPlist.strings */,
+				56A88F3817587153003906F9 /* main.m */,
+				56A88F3A17587153003906F9 /* TJBFullScreenTransitionExample-Prefix.pch */,
+				56A88F3E17587153003906F9 /* Default.png */,
+				56A88F4017587153003906F9 /* Default@2x.png */,
+				56A88F4217587153003906F9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56A88F5017587154003906F9 /* TJBFullScreenTransitionExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F5617587154003906F9 /* TJBFullScreenTransitionExampleTests.h */,
+				56A88F5717587154003906F9 /* TJBFullScreenTransitionExampleTests.m */,
+				56A88F5117587154003906F9 /* Supporting Files */,
+			);
+			path = TJBFullScreenTransitionExampleTests;
+			sourceTree = "<group>";
+		};
+		56A88F5117587154003906F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F5217587154003906F9 /* TJBFullScreenTransitionExampleTests-Info.plist */,
+				56A88F5317587154003906F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56A88F6A17588BEE003906F9 /* TJBFullScreenTransition */ = {
+			isa = PBXGroup;
+			children = (
+				56A88F6B17588C06003906F9 /* UIViewController+TJBFullScreenTransition.m */,
+				56A88F6C17588C06003906F9 /* UIViewController+TJBFullScreenTransition.h */,
+				56A88F6D17588C06003906F9 /* UIViewController+FillViewWithChildVC.m */,
+				56A88F6E17588C06003906F9 /* UIViewController+FillViewWithChildVC.h */,
+				56A88F6F17588C06003906F9 /* UIView+TJBExpandingView.m */,
+				56A88F7017588C06003906F9 /* UIView+TJBExpandingView.h */,
+			);
+			name = TJBFullScreenTransition;
+			path = TJBFullScreenTransitionExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56A88F2817587153003906F9 /* TJBFullScreenTransitionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A88F5B17587154003906F9 /* Build configuration list for PBXNativeTarget "TJBFullScreenTransitionExample" */;
+			buildPhases = (
+				56A88F2517587153003906F9 /* Sources */,
+				56A88F2617587153003906F9 /* Frameworks */,
+				56A88F2717587153003906F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJBFullScreenTransitionExample;
+			productName = TJBFullScreenTransitionExample;
+			productReference = 56A88F2917587153003906F9 /* TJBFullScreenTransitionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56A88F4817587154003906F9 /* TJBFullScreenTransitionExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56A88F5E17587154003906F9 /* Build configuration list for PBXNativeTarget "TJBFullScreenTransitionExampleTests" */;
+			buildPhases = (
+				56A88F4417587154003906F9 /* Sources */,
+				56A88F4517587154003906F9 /* Frameworks */,
+				56A88F4617587154003906F9 /* Resources */,
+				56A88F4717587154003906F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A88F4F17587154003906F9 /* PBXTargetDependency */,
+			);
+			name = TJBFullScreenTransitionExampleTests;
+			productName = TJBFullScreenTransitionExampleTests;
+			productReference = 56A88F4917587154003906F9 /* TJBFullScreenTransitionExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56A88F2117587153003906F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TJB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = divergio;
+			};
+			buildConfigurationList = 56A88F2417587153003906F9 /* Build configuration list for PBXProject "TJBFullScreenTransitionExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56A88F2017587153003906F9;
+			productRefGroup = 56A88F2A17587153003906F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56A88F2817587153003906F9 /* TJBFullScreenTransitionExample */,
+				56A88F4817587154003906F9 /* TJBFullScreenTransitionExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56A88F2717587153003906F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F3717587153003906F9 /* InfoPlist.strings in Resources */,
+				56A88F3F17587153003906F9 /* Default.png in Resources */,
+				56A88F4117587153003906F9 /* Default@2x.png in Resources */,
+				56A88F4317587153003906F9 /* Default-568h@2x.png in Resources */,
+				56A88F6517588940003906F9 /* amateur_chat_bubble.png in Resources */,
+				56A88F6617588940003906F9 /* amateur_chat_bubble@2x.png in Resources */,
+				56A88F7B17588CC6003906F9 /* TimelineCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A88F4617587154003906F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F5517587154003906F9 /* InfoPlist.strings in Resources */,
+				56A88F8317588CD5003906F9 /* TempStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A88F4717587154003906F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56A88F2517587153003906F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F3917587153003906F9 /* main.m in Sources */,
+				56A88F3D17587153003906F9 /* TJBAppDelegate.m in Sources */,
+				56A88F69175889E6003906F9 /* PresentedViewController.m in Sources */,
+				56A88F7117588C06003906F9 /* UIViewController+TJBFullScreenTransition.m in Sources */,
+				56A88F7217588C06003906F9 /* UIViewController+FillViewWithChildVC.m in Sources */,
+				56A88F7317588C06003906F9 /* UIView+TJBExpandingView.m in Sources */,
+				56A88F7C17588CC6003906F9 /* TimelineCell.m in Sources */,
+				56A88F8417588F34003906F9 /* TempStoryboard.storyboard in Sources */,
+				56A88F7D17588CC6003906F9 /* RandomChinese.m in Sources */,
+				56A88F7E17588CC6003906F9 /* RandomCellSizeTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A88F4417587154003906F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A88F5817587154003906F9 /* TJBFullScreenTransitionExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56A88F4F17587154003906F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56A88F2817587153003906F9 /* TJBFullScreenTransitionExample */;
+			targetProxy = 56A88F4E17587154003906F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56A88F3517587153003906F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A88F3617587153003906F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56A88F5317587154003906F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56A88F5417587154003906F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56A88F5917587154003906F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56A88F5A17587154003906F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A88F5C17587154003906F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Prefix.pch";
+				INFOPLIST_FILE = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56A88F5D17587154003906F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Prefix.pch";
+				INFOPLIST_FILE = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56A88F5F17587154003906F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TJBFullScreenTransitionExample.app/TJBFullScreenTransitionExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Prefix.pch";
+				INFOPLIST_FILE = "TJBFullScreenTransitionExampleTests/TJBFullScreenTransitionExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56A88F6017587154003906F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TJBFullScreenTransitionExample.app/TJBFullScreenTransitionExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TJBFullScreenTransitionExample/TJBFullScreenTransitionExample-Prefix.pch";
+				INFOPLIST_FILE = "TJBFullScreenTransitionExampleTests/TJBFullScreenTransitionExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56A88F2417587153003906F9 /* Build configuration list for PBXProject "TJBFullScreenTransitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A88F5917587154003906F9 /* Debug */,
+				56A88F5A17587154003906F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56A88F5B17587154003906F9 /* Build configuration list for PBXNativeTarget "TJBFullScreenTransitionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A88F5C17587154003906F9 /* Debug */,
+				56A88F5D17587154003906F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		56A88F5E17587154003906F9 /* Build configuration list for PBXNativeTarget "TJBFullScreenTransitionExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A88F5F17587154003906F9 /* Debug */,
+				56A88F6017587154003906F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56A88F2117587153003906F9 /* Project object */;
+}

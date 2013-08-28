@@ -1,6 +1,6 @@
 //
 //  TJBAppDelegate.m
-//  TJBFullScreenTransition
+//  TJBFullScreenTransitionExample
 //
 //  Created by Tyler Barth on 2013-05-31.
 //  Copyright (c) 2013年 divergio. All rights reserved.
@@ -15,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window setRootViewController:[[UIStoryboard storyboardWithName:@"TempStoryboard" bundle:nil] instantiateInitialViewController]];
     [self.window makeKeyAndVisible];
     return YES;
 }
