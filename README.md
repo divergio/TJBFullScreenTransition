@@ -1,3 +1,7 @@
+## Note
+
+This project is deprecated. You should be using iOS 7 custom transitions for this, now. 
+
 ##What is TJBFullScreenTransition?
 
 TJBFullScreenTransition is a way to present a full screen view controller, with control over its initial position so that you can create a seamless animation effect. 
